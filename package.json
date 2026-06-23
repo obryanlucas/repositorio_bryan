@@ -1,0 +1,28 @@
+{
+    "name": "conectaept",
+    "version": "1.0.0",
+    "description": "Backend da plataforma ConectaEPT",
+    "main": "server.js",
+    "type": "commonjs",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "node server.js"
+    },
+    "keywords": [
+      "node",
+      "express",
+      "api",
+      "conectaept"
+    ],
+    "author": "Bryan",
+    "license": "MIT",
+    "dependencies": {
+      "bcryptjs": "^3.0.2",
+      "cors": "^2.8.5",
+      "dotenv": "^16.6.1",
+      "express": "^4.21.2",
+      "jsonwebtoken": "^9.0.2",
+      "mongoose": "^8.18.0",
+      "multer": "^2.0.2"
+    }
+  }
