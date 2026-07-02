@@ -1,15 +1,15 @@
 ### Listar todos os Usuario
-GET http://localhost:3000/conectaEPT
+GET http://localhost:3000/
 Accept: application/json
 
 
 
-### Criar um Usuario
-POST http://localhost:3000/users/
+### cadastrar um Usuario
+POST http://localhost:3000/
 Content-Type: application/json
 
 {
- "nome": "bryan Lucas",
+ "nome": " Bryan Lucas",
  "email" : "bryan@teste.com",
  "senha_hash":22222222,
   "tipo": "aluno"
@@ -18,23 +18,23 @@ Content-Type: application/json
 ###
 
 ### Buscar Usuario por ID
-GET http://localhost:3000/usuario/
+GET http://localhost:3000/1
 Accept: application/json
 
 ###
 
 ### Atualizar Usuario
-PUT http://localhost:3000/usuario/15
+PUT http://localhost:3000/2
 Content-Type: application/json
 
 {
-  
-   "titulo": "O Pequeno Príncipe",
-   "autor": "Antoine de Saint-Exupéry",
-  "disponivel": "0"
+ "nome": " Bryan Oliveira",
+ "email" : "bryan@teste.com",
+ "senha_hash":22222222,
+  "tipo": "aluno"
 }
 
 ###
 
 ### Deletar Usuario
-DELETE http://localhost:3000/usuario/14
+DELETE http://localhost:3000/1

@@ -15,7 +15,7 @@ pool.getConnection((err, connection) => {
     console.error('Erro ao conectar ao banco de dados:', err.message);
     return;
   }
-  console.log('Conectado ao banco de dados MySQL!');
+  console.log(`Conectado ao banco de conectaept dados MySQL!`);
   connection.release();  
 });
 
