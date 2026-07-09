@@ -12,6 +12,8 @@ app.use(express.json());
 
 app.use('/' , usuarioRoutes);
 
+
+
 app.use(errorMiddeleware);
 
 module.exports = app;

@@ -38,3 +38,20 @@ Content-Type: application/json
 
 ### Deletar Usuario
 DELETE http://localhost:3000/1
+
+# teste empresas
+
+### criar 
+
+POST http://localhost:3000/desafios
+Content-Type: application/json
+
+{
+ "titulo": "Bryan Lucas",
+ "descricao": "Testando, testando, teste",
+ "area": "Tecnologia",
+ "prazo": "2023-12-31",
+ "recursos": "Computador, internet",
+ "condicao": "Completo"
+}
+
